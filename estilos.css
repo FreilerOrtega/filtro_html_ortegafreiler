@@ -86,19 +86,21 @@
 .imgchaqueta{
     width: 10vw;
     height: 10vw;
-    border-radius: 5vw;
+    
 }
 
 .chaqueta p{
+    position: absolute;
     margin-left: -0.1vw;
     text-align: center;
     font-size: 0.9vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1vw;
-    width: 10.2vw;
-    height: 6vw;
+    margin-top: 10.1vw;
+    width: 10.3vw;
+    height: 5.1vw;
     background-color: rgb(133, 233, 233);
     border-radius: 0.5vw;
+    
 
 }
 
@@ -116,13 +118,14 @@
 }
 
 .chaquetanp{
+    position: absolute;
     margin-left: -0.1vw;
     text-align: center;
     font-size: 0.9vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1vw;
-    width: 10.2vw;
-    height: 6vw;
+    margin-top: 10.1vw;
+    width: 10.3vw;
+    height: 5.1vw;
     background-color: rgb(133, 233, 233);
     border-radius: 0.5vw;
 
@@ -149,16 +152,16 @@
 }
 
 .chaquetabp{
+    position: absolute;
     margin-left: -0.1vw;
     text-align: center;
     font-size: 0.9vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1vw;
-    width: 10.2vw;
-    height: 6vw;
+    margin-top: 10.1vw;
+    width: 10.3vw;
+    height: 5.1vw;
     background-color: rgb(133, 233, 233);
     border-radius: 0.5vw;
-
 }
 
 .chaquetab{
@@ -182,13 +185,14 @@
 }
 
 .chaquetahp{
+    position: absolute;
     margin-left: -0.1vw;
     text-align: center;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1vw;
-    width: 10.2vw;
-    height: 6vw;
+    margin-top: 10.1vw;
+    width: 10.3vw;
+    height: 5vw;
     background-color: rgb(133, 233, 233);
     border-radius: 0.5vw;
 
@@ -214,13 +218,15 @@
 }
 
 .chaquetahap{
+    position: absolute;
+    display: flex;
     margin-left: -0.1vw;
     text-align: center;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 1vw;
-    width: 10.2vw;
-    height: 6vw;
+    margin-top: 10.1vw;
+    width: 10.3vw;
+    height: 5vw;
     background-color: rgb(133, 233, 233);
     border-radius: 0.5vw;
 
@@ -231,3 +237,344 @@
     height: 10vw;
 
 }
+
+.camisapresion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 30vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.camisapresionp{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.camisapresionimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.camisapolo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -10vw;
+    margin-left: 50vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.camisapolop{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.camisapoloimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.camisadeportiva{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 50vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.camisadeportivap{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.camisadeportivaimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.camisarock{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: -10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.camisarockp{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.camisarockimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.camisaanime{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.camisaanimep{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.camisaanimemg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.pantalondril{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 30vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.pantalondrilp{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.pantalondrilimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+.pantaloncamuflado{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 30vw;
+    margin-left: 50vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.pantaloncamufladop{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.pantaloncamufladoimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+.joger{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50vw;
+    margin-left: -10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.jogerp{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.jogerimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.pantaloncolores{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.pantaloncoloresp{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.pantaloncoloresimg{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+.pantaloncamuflado2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50vw;
+    margin-left: 30vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.pantaloncamuflado2p{
+    position: absolute;
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10.1vw;
+    width: 10.2vw;
+    height: 5vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.pantaloncamuflado2img{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+
+
+
+
+
+
