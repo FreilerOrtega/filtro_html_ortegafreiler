@@ -1,81 +1,233 @@
 
+.nav{
+   float: left;
+   width: 20vw;
+   height: 100vw;
+   background-color: #209ca0;
+   border: 0.3vw solid rgb(233, 217, 95);
+   border-radius: 1vw;
+   text-align: center;
+   
 
+}
+.nav h1{
+    font-size: 3vw;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.barraizq{
-    position: absolute;
-    width: 20vw;
-    height: 100vh;
-    background-color:rgb(36, 34, 34);
-    display: flex;
-    display: block;
+.icon{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+   
+}
+
+.nav ul{
+    list-style-type: none;
+    padding: 6%;
+    margin-top: 8vw;
+    font-size: 2vw;
+}
+
+.nav a{
+    text-decoration: none;
+    color: azure;
+    
+}
+
+.nav p{
+    color: azure;
+    font-size: 1.5vw;
+    margin-top: 25vw;
     text-align: center;
-    
 }
 
-.barraizq h1{
-    width: 2vw;
-    height: 2vh;
-    display: flex;
-    left: 3vw;
-    padding: 2vh;
-    font-size: 2vw;
-    color: rgb(255, 255, 255);
+.Todos{
+    width: 18vw;
+    height: 3vw;
+    position: absolute;
+    top: 1vw;
+    margin-left: 22vw;
+    z-index: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1vw;
+    color: azure;
+    border-bottom: 0.1VW SOLID azure;
 }
 
-.categorias{
-    width: 20vw;
-    height: 100vh;
-    background-color: rgb(43, 39, 39);
-    font-size: 2vw;
-    color:rgb(249, 250, 249);  ;
-    
-}
-
-.cuadroproductos{
+.Cuadroropa{
     display: flex;
     position: absolute;
-    left: 21vw;
-    width: 100%;
-    height: 100%;
-    background-color:rgb(39, 36, 31);
-    border: 0.5vw solid rgb(131, 187, 86); 
-    border-radius: 10%;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
+    width: 50vw;
+    height: 59.8vw;
+    background-color: #209ca0;
+    padding: 20%;
+    border: 0.3vw solid rgb(233, 217, 95);
+    border-radius: 2vw;
+    margin-left: 21vw;
 }
 
-.ropa1{
+.chaqueta{
     display: flex;
+    flex-direction: column;
     position: absolute;
-    margin-top: -50vh;
+    margin-top: -10vw;
+    margin-left: -10vw;
     width: 10vw;
-    height: 25vh;
-    background: white;
-    margin-left: 5vw;
-    flex-direction: column;
-  
-
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
 }
 
-#ropa1{
-    display: flex;
-    transform: scale(0.7);
-    margin-top: -4vh;
-    font-size: 2vw;
-    
+.imgchaqueta{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
 }
 
-.texto1{
-    display: flex;
-    position: absolute;
-    width: 9.9vw;
-    height: 4vh;
-    border: 1px solid gray;
-    font-size: 0.5vw;
-    top: 9.8vw;
-    background-color: gray;
+.chaqueta p{
+    margin-left: -0.1vw;
     text-align: center;
-    font-size: 0.5;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    width: 10.2vw;
+    height: 6vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.chaquetanegra{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -10vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.chaquetanp{
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    width: 10.2vw;
+    height: 6vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.chaquetan{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+.chaquetablanca{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -10vw;
+    margin-left: 30vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.chaquetabp{
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    width: 10.2vw;
+    height: 6vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.chaquetab{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+.chaquetahombre{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: -10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.chaquetahp{
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    width: 10.2vw;
+    height: 6vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.chaquetah{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.chaquetahombrea{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 15vw;
+    background-color: azure;
+    border: 1vw solid rgb(166, 216, 219);
+    border-radius: 1vw;
+}
+
+.chaquetahap{
+    margin-left: -0.1vw;
+    text-align: center;
+    font-size: 0.9vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    width: 10.2vw;
+    height: 6vw;
+    background-color: rgb(133, 233, 233);
+    border-radius: 0.5vw;
+
+}
+
+.chaquetaha{
+    width: 10vw;
+    height: 10vw;
+
 }
