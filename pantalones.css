@@ -70,7 +70,7 @@ body{
 
 
 
-.camisetas {
+.pantalones {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -84,15 +84,17 @@ body{
     margin-left: 21vw;
 }
 
-.camisetas h2{
+.pantalones h2 {
     position: absolute;
-    margin-top: -17vw;
+    margin-top: -16vw;
     margin-left: -17vw;
     font-size: 3vw;
     color: azure;
 }
 
-.camisapresion {
+
+
+.pantalondril {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -105,13 +107,13 @@ body{
     border-radius: 1vw;
 }
 
-.camisapresionimg {
+.pantalondrilimg {
     width: 10vw;
     height: 10vw;
 
 }
 
-.camisapresionp{
+.pantalondrilp {
     position: absolute;
     margin-left: -0.1vw;
     text-align: center;
@@ -126,7 +128,7 @@ body{
 
 }
 
-.camisapolo{
+.pantaloncamuflado {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -139,7 +141,7 @@ body{
     border-radius: 1vw;
 }
 
-.camisapolop {
+.pantaloncamufladop {
     position: absolute;
     margin-left: -0.1vw;
     text-align: center;
@@ -153,14 +155,14 @@ body{
 
 }
 
-.camisapoloimg {
+.pantaloncamufladoimg {
     width: 10vw;
     height: 10vw;
 
 }
 
 
-.camisadeportiva {
+.joger {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -173,7 +175,7 @@ body{
     border-radius: 1vw;
 }
 
-.camisadeportivap {
+.jogerp {
     position: absolute;
     margin-left: -0.1vw;
     text-align: center;
@@ -186,14 +188,14 @@ body{
     border-radius: 0.5vw;
 }
 
-.camisadeportiaimg {
+.jogerimg {
     width: 10vw;
     height: 10vw;
 
 }
 
 
-.camisarock {
+.pantaloncolores {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -206,7 +208,7 @@ body{
     border-radius: 1vw;
 }
 
-.camisarockp {
+.pantaloncoloresp {
     position: absolute;
     margin-left: -0.1vw;
     text-align: center;
@@ -220,13 +222,13 @@ body{
 
 }
 
-.camisarockimg{
+.pantaloncoloresimg{
     width: 10vw;
     height: 10vw;
 
 }
 
-.camisaanime{
+.pantaloncamuflado2{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -239,7 +241,7 @@ body{
     border-radius: 1vw;
 }
 
-.camisaanimep{
+.pantaloncamuflado2p {
     position: absolute;
     display: flex;
     margin-left: -0.1vw;
@@ -254,7 +256,7 @@ body{
 
 }
 
-.camisaanimeimg{
+.pantaloncamuflado2img {
     width: 10vw;
     height: 10vw;
 

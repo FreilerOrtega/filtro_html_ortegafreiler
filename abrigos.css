@@ -1,3 +1,15 @@
+
+
+
+body{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    
+}
+
+
 .nav {
     float: left;
     width: 20vw;
@@ -28,6 +40,7 @@
     padding: 6%;
     margin-top: 8vw;
     font-size: 2vw;
+    
 }
 
 .nav a {
@@ -40,6 +53,7 @@
 
 .a2 {
     background-color: aqua;
+    cursor: pointer;
 
 
 
